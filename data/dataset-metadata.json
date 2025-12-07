@@ -1,0 +1,49 @@
+{
+  "title": "Cleaned Brain Tumor MRI Dataset (NumPy Version)",
+  "id": "atharavsonawane/brain-tumor-mri-numpy",
+  "licenses": [
+    {
+      "name": "CC BY 4.0"
+    }
+  ],
+  "description": "A cleaned and restructured NumPy (.npy) version of the original Figshare Brain Tumor MRI dataset (Cheng et al., 2017). All corrupted .mat files have been repaired and converted into consistent arrays preserving patient IDs, segmentation masks, and tumor labels for machine learning use.",
+  "isPrivate": false,
+  "keywords": [
+    "brain tumor",
+    "mri",
+    "medical imaging",
+    "numpy",
+    "glioma",
+    "meningioma",
+    "pituitary",
+    "deep learning",
+    "segmentation"
+  ],
+  "collaborators": [],
+  "resources": [
+    {
+      "path": "README.md",
+      "description": "Detailed dataset documentation, structure, usage, and citations."
+    },
+    {
+      "path": "images/",
+      "description": "Grayscale MRI slice images (512x512 NumPy arrays)."
+    },
+    {
+      "path": "masks/",
+      "description": "Binary tumor segmentation masks."
+    },
+    {
+      "path": "labels/",
+      "description": "Tumor class labels (1=meningioma, 2=glioma, 3=pituitary)."
+    },
+    {
+      "path": "borders/",
+      "description": "Tumor boundary/edge maps for segmentation visualization."
+    },
+    {
+      "path": "pids/",
+      "description": "Patient or slice identifiers stored as NumPy arrays."
+    }
+  ]
+}
